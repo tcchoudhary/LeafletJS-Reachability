@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<title>Sixwallz From: Tek</title>
+    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        
+        <link rel="stylesheet" href="css/leaflet.css"/>
+
+        <style>
+            html, body
+            {
+                padding: 0;
+                margin: 0;
+                height: 100%;
+            }
+
+            .mapFullScreen
+            {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+
+            /* Make the icons larger in the user interface */
+            .reachability-control-settings-button
+            {
+                font-size: 22px;
+            }
+			span .reachability-control-expand-button{display: none;}
+        </style>
+    </head>
+
+    <body>
+        <div id="map" class="mapFullScreen"></div>
+
+        <script src="js/leaflet.js"></script>
+		<script src="js/simple_ajax_request.js"></script>
+		<script src="js/common.js"></script>
+    </body>
+</html>
